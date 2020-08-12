@@ -1,0 +1,251 @@
+html, body { 
+    margin: 0px;
+    padding: 0px;}
+.fc {
+    
+    background-color:rgb(98, 116, 73) ;
+    color: rgb(255, 255, 255);
+    height: 70px;
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+  }
+
+    
+#logo {
+   
+    width: 140px;
+    height: 65px;
+    margin-left: 3%;
+    float: left;
+    position: absolute;
+}
+
+#menu {
+   color: white;
+    float: right;
+    list-style: none;
+    margin-right: 5%; 
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    font-size: 19px;
+    margin: 0;
+    text-decoration: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    background-color: rgb(163, 197, 116);
+}
+
+
+#imagem_fundo {
+    margin: 0px;
+    background: url(fundo2.jpg);
+    min-height: 100vh;
+    background-size: cover;
+color:  black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+}
+ #titulo
+ { max-width: 500px;
+    font-size: 70px;
+    color: white;
+    text-shadow:  1px 1px black;
+    margin-bottom: 0;
+ }
+ #t2 {
+     max-width: 500px;
+     font-size: 30px;
+     margin-top: 0;
+     border-top: 3px solid white;
+     color: white;
+     text-shadow: 1px 1px black;
+}
+   
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative; 
+    width: 40%;
+}
+
+
+#Projeto {
+    background-color:#f7f7f7;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado { 
+    text-align: center;
+}
+
+.dois {
+    width: 40%;
+}
+.quatro {
+    max-width: 400px;
+    box-shadow: 2px 2px 2px 2px #777777;
+    width: 13%;
+    height: 350px;
+    margin: 10px;
+    flex: 30%;
+    align-items: center;
+    text-align: center;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+    
+}
+section {
+    padding: 8%;
+    float: left;
+}
+.icone {
+    width: 200px;
+   
+}
+ 
+#acao {
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 2px;
+}
+#acao:hover {
+    background-color:rgb(163, 197, 116) ;
+}
+
+#energia_sustentavel{
+
+background-color: #f7f7f7;
+margin-top: 5px;
+}
+#solar { 
+    width: 140px;
+    height: 120px;
+}
+#oceanica{
+    width: 140px;
+    height: 120px;
+}
+#geotermica {
+    width: 140px;
+    height: 120px;
+}
+#eolica {
+    width: 140px;
+    height: 120px;
+}
+.imgeco {
+    width: 110%;
+    height: 270px;
+    padding: 2px;
+}
+#ecopontos {
+    background-color: #f7f7f7;
+}
+#sobre {
+    width: 84%;
+    height: 320px;
+    
+    position: relative;
+    background-color: rgb(128, 141, 110);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   
+    
+   
+}
+#footer {
+    background-color: rgb(98, 116, 73);
+    width: 84%;
+    height: 130px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    height: 100%;
+}
+.icon1{
+    width: 140px;
+    position: relative;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.icon2 {
+        width: 95px;
+        position: relative;
+        justify-content: flex-end;
+        padding: 10px;
+}
+
+#tf{
+    float: right;
+    position: relative;
+    width: 40%;
+    text-align: center;
+    padding: 15px;
+}
+#icones {
+   float: left;
+   position: relative;
+   width: 40%;
+   padding: 5px;
+}
+@media all and (max-width:768px) {
+    #menu{
+       visibility: hidden;
+    }
+    .coluna, .tres, .quatro, .video{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        transform: translateX(-50%);
+    }
+    #sobre {
+        height: 100%;
+    }
+    #footer{
+        height: 100%;
+        flex-direction: column;
+        display: block;
+        
+      
+        
+    }
+
+}
+
+
